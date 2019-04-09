@@ -9,3 +9,6 @@ test1:
 
 run:
 	./main
+
+clean:
+	rm ./*.o
