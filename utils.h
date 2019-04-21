@@ -8,3 +8,8 @@
 #include <string.h>
 
 #define READ_BUFFER_SIZE 1000
+
+void usage();
+char* get_seq(char* file);
+int read_len(char* file);
+int search_seq(char* seq, char* read);
